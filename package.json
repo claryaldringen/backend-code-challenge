@@ -1,0 +1,39 @@
+{
+  "name": "backend-code-challenge",
+  "version": "1.0.0",
+  "description": "Backend code challenge for Brainsoft",
+  "main": "index.ts",
+  "repository": "https://gitlab.com/brainsoft-eu/backend-code-challenge.git",
+  "author": "Martin Zadražil <zadram1@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "install:database": "ts-node install.ts",
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "apollo-server-core": "^3.6.2",
+    "apollo-server-fastify": "^3.6.2",
+    "dotenv": "^14.3.2",
+    "fastify": "^3.27.0",
+    "fastify-postgres": "^3.6.0",
+    "graphql": "^16.3.0",
+    "nexus": "^1.2.0",
+    "pg": "^8.7.1",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "@types/pg": "^8.6.4",
+    "@types/pg-format": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
