@@ -1,0 +1,1 @@
+export { setFavoritePokemon } from './setFavoritePokemon'
