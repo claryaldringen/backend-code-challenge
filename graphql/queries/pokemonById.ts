@@ -1,7 +1,7 @@
-import { QueryResolver } from '../../../types'
+import { TPokemon, TQueryResolver } from '../../types'
 import { pokemons } from './pokemons'
 
-export const pokemonById: QueryResolver<{ id: number }, Promise<any>> = async (
+export const pokemonById: TQueryResolver<{ id: number }, TPokemon> = async (
   parent,
   args,
   context,

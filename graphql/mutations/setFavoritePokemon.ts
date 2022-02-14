@@ -1,8 +1,7 @@
-import { QueryResolver } from '../../../types'
-import { pokemons } from '../queries'
+import { TQueryResolver } from '../../types'
 import format from 'pg-format'
 
-export const setFavoritePokemon: QueryResolver<
+export const setFavoritePokemon: TQueryResolver<
   { id: number; favorite: boolean },
   Promise<any>
 > = async (parent, { id, favorite }, { client }, info) => {

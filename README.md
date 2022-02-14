@@ -4,7 +4,7 @@ This repository contains a coding exercise for new developers joining the backen
 
 Fork this repository and create your own exercise!
 
-## What we want you to build
+### What we want you to build
 
 We have provided you with Pokemon data in a json file. Your mission is to create a database and expose the database to an API. Basically, you need to:
 
@@ -22,7 +22,7 @@ We have provided you with Pokemon data in a json file. Your mission is to create
   - Mutation to mark/unmark pokemon as favorite
 - Test are important and if time allows it, we'd like to see some test coverage
 
-## Technology
+### Technology
 
 Remember that our technology stack is:
 
@@ -31,3 +31,23 @@ Remember that our technology stack is:
 - PostgreSQL (Objection.js)
 
 You can use the framework that you prefer, but please write the challenge in JS or TS. You can choose PostgreSQL / MongoDB like database, be free but take in consideration the best database to store the data.
+
+##Solution
+
+PostgreSQL DB confugarion is in `.env` file. Create database and fill up with data:
+
+```shell
+yarn install:database
+```
+
+App run:
+
+```shell
+yarn start
+```
+
+Tests:
+
+```shell
+yarn test
+```
